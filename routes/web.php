@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.welcome');
+    $comics = config('comics'); // Corrected line
+    return view('pages.welcome', compact('comics'));
+});
+
+Route::get('/home', function () {
+    $comics = config('comics'); // Corrected line
+    return view('pages.welcome', compact('comics'));
+});
+
+
+Route::get('/contacts', function () {
+    return view('pages.contacts');
 });

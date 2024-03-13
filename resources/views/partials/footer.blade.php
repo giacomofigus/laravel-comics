@@ -1,6 +1,6 @@
-<footer>
-    <div id="top-footer">
-        <div id="container-top-footer" class="container mx-auto">
+<footer >
+    <div id="top-footer" >
+        <div id="container-top-footer" class="container mx-auto py-5">
             <div class="flex">
                 <div class="pe-6">
                     <h4 class="text-bold text-xl">DC COMICS</h4>

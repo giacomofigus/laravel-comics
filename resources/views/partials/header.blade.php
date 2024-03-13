@@ -14,7 +14,8 @@
             <li><a href="#">videos</a></li>
             <li><a href="#">fans</a></li>
             <li><a href="#">news</a></li>
-            <li><a href="#">shop</a></li>
+            <li class="text-red-600"><a href="/contacts" >contacts</a></li>
+            <li class="text-red-600"><a href="/home" >home</a></li>
         </ul>
     </nav>
 

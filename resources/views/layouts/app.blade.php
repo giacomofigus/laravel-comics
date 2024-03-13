@@ -13,7 +13,7 @@
     {{-- Header --}}
     @include('partials.header')
     {{-- Main --}}
-
+    @yield('mainSection')
     {{-- Footer --}}
     @include('partials.footer')
 </body>
