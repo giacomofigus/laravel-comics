@@ -1,6 +1,50 @@
-div{
-    background-color: red;
-    h1{
-        font-size: 25px;
+header{
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        padding-block: 10px;
+        ul{
+            display: flex;
+            gap: 30px;
+            li{
+                text-transform: uppercase ;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+footer{
+    #top-footer{
+        background-image: url("../img/footer-bg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+    
+        #container-top-footer{
+            background-image: url("../img/dc-logo-bg.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        
+        ul{
+            list-style-type: none;
+            li{
+                color: rgb(155, 155, 155);
+                line-height: 35px;
+            }
+        }
+    }
+    
+    #bottom-footer{
+            padding-block: 40px ;
+            background-color: #313131;
+            z-index: 100;
+            color: white;
     }
 }
